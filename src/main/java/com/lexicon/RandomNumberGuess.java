@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class RandomNumberGuess {
     public static void main(String[] args) {
         Random random = new Random();
-        int randomInt = random.nextInt(500);
-        System.out.println(randomInt);
+        int randomInt = random.nextInt(100);
         Scanner input = new Scanner(System.in);
         boolean notGuessed=true;
         int guessedInput;
